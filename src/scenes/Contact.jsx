@@ -31,10 +31,10 @@ const Contact = () => {
 
 			{/* FORM & IMAGE */}
 			<div className="md:flex md:justify-between gap-16 mt-5">
-                <div className="flex-start basis-1/3 hover:motion-safe:animate-spin">
+                <div className="flex-start basis-1/3 hover:motion-safe:animate-spin border-2 border-[#09f496] rounded-full">
                     <img src={require('../assets/logo.png')} alt="contact_Image" />
                 </div>
-				<div className="flex-end basis-2/3 md:mt-0">
+				<div className="flex-end basis-2/3 mt-5 md:mt-0">
 					<form
 						target="_blank"
 						onSubmit={onSubmit}
@@ -42,7 +42,7 @@ const Contact = () => {
 						method="POST"
 					>
 						<input
-							className="w-full bg-[#84e8ad] font-semibold placeholder-black p-3"
+							className="w-full placeholder-[#09f496] font-semibold bg-black rounded-lg p-5 shadow-2xl shadow-black/40"
 							type="text"
 							placeholder="NAME"
 							{...register("name", {
@@ -60,7 +60,7 @@ const Contact = () => {
 						)}
 
 						<input
-							className="w-full bg-[#84e8ad] font-semibold placeholder-black p-3 mt-5"
+							className="w-full placeholder-[#09f496] font-semibold bg-black rounded-lg p-5 mt-5 shadow-2xl shadow-black/40"
 							type="text"
 							placeholder="EMAIL"
 							{...register("email", {
@@ -79,7 +79,7 @@ const Contact = () => {
 						)}
 
 						<textarea
-							className="w-full bg-[#84e8ad] font-semibold placeholder-black p-3 mt-5"
+							className="w-full placeholder-[#09f496] font-semibold bg-black rounded-lg p-5 mt-5 shadow-2xl shadow-black/40"
 							name="message"
 							placeholder="MESSAGE"
 							rows="4"
@@ -99,7 +99,7 @@ const Contact = () => {
 						)}
 
 						<button
-							className="p-5 bg-[#84e8ad] font-semibold mt-5 hover:bg-black/[0.5] hover:text-[#09f496] hover:rounded-lg hover:text-bold transition duration-500"
+							className="p-5 bg-[#84e8ad] font-semibold mt-5 hover:bg-black hover:text-[#09f496] hover:rounded-lg hover:text-bold transition duration-500 shadow-2xl shadow-black/40"
 							type="submit"
 						>
 							SEND ME A MESSAGE

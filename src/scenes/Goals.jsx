@@ -17,7 +17,7 @@ const Goals = ({ setSelectedPage }) => {
 			</div>
 			{/*Main Divs */}
 			<div className="grid grid-cols-1 md:grid-cols-2">
-				<div className="bg-[#09f496]/[0.9] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#84e8ad]/[0.75] hover:text-black border border-gray-800 shadow-lg shadow-gray-50/40 rounded-xl transition ease-in-out duration-300">
+				<div className="bg-[#09f496] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#09f496]/[0.8] hover:text-black rounded-xl transition ease-in-out duration-300 shadow-2xl shadow-black/40">
 					<HiOutlineLightBulb color="white" size="32px" />
 					<h1 className="py-2 text-2xl w-[80%]">1. Culinary innovation:</h1>
 					<p className="break-normal">
@@ -29,7 +29,7 @@ const Goals = ({ setSelectedPage }) => {
 					</p>
 				</div>
 
-				<div className="bg-[#09f496]/[0.9] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#84e8ad]/[0.75] hover:text-black border border-gray-800 shadow-lg shadow-gray-50/40 rounded-xl transition ease-in-out duration-300">
+				<div className="bg-[#09f496] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#09f496]/[0.8] hover:text-black rounded-xl transition ease-in-out duration-300 shadow-2xl shadow-black/40">
 					<GiChefToque color="white" size="32px" />
 					<h1 className="py-2 text-2xl w-[80%]">2. Career advancement: </h1>
 					<p className="break-normal">
@@ -41,7 +41,7 @@ const Goals = ({ setSelectedPage }) => {
 					</p>
 				</div>
 
-				<div className="bg-[#09f496]/[0.9] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#84e8ad]/[0.75] hover:text-black border border-gray-800 shadow-lg shadow-gray-50/40 rounded-xl transition ease-in-out duration-300">
+				<div className="bg-[#09f496] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#09f496]/[0.8] hover:text-black rounded-xl transition ease-in-out duration-300 shadow-2xl shadow-black/40">
 					<GiEarthAsiaOceania color="white" size="32px" />
 					<h1 className="py-2 text-2xl w-[80%]">3. Sustainability: </h1>
 					<p className="break-normal">
@@ -53,7 +53,7 @@ const Goals = ({ setSelectedPage }) => {
 					</p>
 				</div>
 
-				<div className="bg-[#09f496]/[0.9] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#84e8ad]/[0.75] hover:text-black border border-gray-800 shadow-lg shadow-gray-50/40 rounded-xl transition ease-in-out duration-300">
+				<div className="bg-[#09f496] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#09f496]/[0.8] hover:text-black rounded-xl transition ease-in-out duration-300 shadow-2xl shadow-black/40">
 					<IoIosPeople color="white" size="32px" />
 					<h1 className="py-2 text-2xl w-[80%]">4. Community engagement: </h1>
 					<p className="break-normal">

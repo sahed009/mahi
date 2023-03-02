@@ -34,7 +34,8 @@ const Landing = ({ setSelectedPage }) => {
 			<div className="z-30 basis-2/5 mt-12 md:mt-32">
 				{/* HEADINGS */}
 				<div>
-					<p className="text-3xl md:text-4xl font-righteous bg-black/[0.5] px-20 py-5 rounded-3xl text-white z-10 text-center md:text-start animate__animated animate__fadeInDown animate__delay-1s">
+					<p className="text-3xl md:text-4xl font-righteous bg-black/[0.5] px-20 py-5 rounded-3xl text-white z-10 text-start animate__animated animate__fadeInDown animate__delay-1s">
+                        <span className="text-[70px]"> &#8220; </span><br />
 						GO<span className="text-[#84e8ad]">L</span>AM MA
 						<span className="text-[#84e8ad]">HS</span>HER CH
 						<span className="text-[#84e8ad]">OWDH</span>URY <br />
@@ -46,8 +47,8 @@ const Landing = ({ setSelectedPage }) => {
 						</span>
 					</p>
 
-					<p className="mt-10 mb-7 py-1 font-righteous text-lg text-center text-[#84e8ad] bg-black/[0.3] rounded-md px-5 md:text-start animate__animated animate__zoomInUp animate__delay-1s">
-						A QUALITY CHEF FROM BANGLADESH.
+					<p className="w-[100%] justify-center items-center my-10 py-2 font-righteous text-lg text-center text-[#84e8ad] bg-black/[0.5] rounded-md px-5 md:text-start animate__animated animate__zoomInUp animate__delay-1s">
+						A QUALITY CHEF FROM BANGLADESH
 						<br />
 					</p>
 					<div className="animate__animated animate__lightSpeedInLeft justify-center md:justify-start">
@@ -58,7 +59,7 @@ const Landing = ({ setSelectedPage }) => {
 				{/* CALL TO ACTIONS */}
 				<div className="flex mt-5 justify-center md:justify-start">
 					<AnchorLink offset={100}
-						className="hover:bg-white/[0.9] hover:text-[#09f496] text-bold rounded-2xl hover:rounded-md py-3 px-7 font-semibold
+						className="hover:bg-black/[0.9] hover:text-[#09f496] text-bold rounded-2xl hover:rounded-md py-3 px-7 font-semibold
              					  text-white bg-[#09f496]/[0.6] transition duration-500"
 						onClick={() => setSelectedPage("contact")}
 						href="#contact"
