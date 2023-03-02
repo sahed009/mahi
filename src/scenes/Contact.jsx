@@ -22,8 +22,7 @@ const Contact = () => {
 			<div className="flex justify-start w-full">
 				<div>
 					<p className="font-righteous font-semibold text-4xl mt-10 text-[#09f496] animate-pulse">
-						<span className="text-[#84e8ad]">CONTACT ME</span> TO GET
-						STARTED
+						<span className="text-[#84e8ad]">SEND ME</span> A MESSAGE
 					</p>
 					<div className="flex md:justify-end my-5" />
 				</div>
