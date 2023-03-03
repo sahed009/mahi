@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/mahi/static/css/main.d5993572.css",
-    "main.js": "/mahi/static/js/main.ccfc5827.js",
+    "main.css": "/mahi/static/css/main.f544b2ad.css",
+    "main.js": "/mahi/static/js/main.12b50d26.js",
+    "static/media/slider-img-1.jpg": "/mahi/static/media/slider-img-1.38f4e417a481e2d78f86.jpg",
+    "static/media/slider-img-2.jpg": "/mahi/static/media/slider-img-2.c79ed617ff106d1b0161.jpg",
     "static/media/food-1.jpg": "/mahi/static/media/food-1.cb3f37a329ff42de18aa.jpg",
     "static/media/food-2.jpg": "/mahi/static/media/food-2.ebe4f063b246606c2e47.jpg",
+    "static/media/slider-img-3.jpg": "/mahi/static/media/slider-img-3.da4da269bae7d26da3b0.jpg",
     "static/media/chefs-photo.png": "/mahi/static/media/chefs-photo.4ab165f97d1b6d4e151f.png",
     "static/media/bg.jpg": "/mahi/static/media/bg.6656012c96b51cb0dd14.jpg",
     "static/media/logo.png": "/mahi/static/media/logo.ec16bc3d4ffa1a0c6257.png",
     "index.html": "/mahi/index.html",
-    "main.d5993572.css.map": "/mahi/static/css/main.d5993572.css.map",
-    "main.ccfc5827.js.map": "/mahi/static/js/main.ccfc5827.js.map"
+    "main.f544b2ad.css.map": "/mahi/static/css/main.f544b2ad.css.map",
+    "main.12b50d26.js.map": "/mahi/static/js/main.12b50d26.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5993572.css",
-    "static/js/main.ccfc5827.js"
+    "static/css/main.f544b2ad.css",
+    "static/js/main.12b50d26.js"
   ]
 }
