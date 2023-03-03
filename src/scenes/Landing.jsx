@@ -34,7 +34,7 @@ const Landing = ({ setSelectedPage }) => {
 			<div className="z-30 basis-2/5 mt-12 md:mt-32">
 				{/* HEADINGS */}
 				<div>
-					<p className="text-3xl md:text-4xl font-righteous bg-black/[0.5] px-20 py-5 rounded-3xl text-white z-10 text-start animate__animated animate__fadeInDown animate__delay-1s">
+					<p className="text-2xl md:text-4xl font-righteous bg-black/[0.5] px-20 py-5 rounded-3xl text-white z-10 text-start animate__animated animate__fadeInDown animate__delay-1s">
                         <span className="text-[70px]"> &#8220; </span><br />
 						GO<span className="text-[#84e8ad]">L</span>AM MA
 						<span className="text-[#84e8ad]">HS</span>HER CH
@@ -47,7 +47,7 @@ const Landing = ({ setSelectedPage }) => {
 						</span>
 					</p>
 
-					<p className="w-[100%] justify-center items-center my-10 py-2 font-righteous text-lg text-center text-[#84e8ad] bg-black/[0.5] rounded-md px-5 md:text-start animate__animated animate__zoomInUp animate__delay-1s">
+					<p className="w-[100%] justify-center items-center my-5 py-2 font-righteous text-lg text-center text-[#84e8ad] bg-black/[0.5] rounded-md px-5 md:text-start animate__animated animate__zoomInUp animate__delay-1s">
 						A QUALITY CHEF FROM BANGLADESH
 						<br />
 					</p>

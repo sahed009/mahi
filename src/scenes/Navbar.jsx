@@ -63,7 +63,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 							setSelectedPage={setSelectedPage}
 						/>
 						<Link
-							page="Testimonials"
+							page="FoodGallery"
 							selectedPage={selectedPage}
 							setSelectedPage={setSelectedPage}
 						/>
@@ -75,31 +75,31 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 					</div>
 				) : (
 					<button
-						className="rounded-full bg-[#09f496] p-2 animate__animated animate__backInLeft"
+						className="rounded-full bg-[#000000] p-2 animate__animated animate__backInLeft"
 						onClick={() => setIsMenuToggled(!isMenuToggled)}
 					>
 						<p className="font-righteous py-1.5 px-2 text-lg ease-in duration-500 opacity-95">
-							<GiHamburger size="2rem" color="white" />
+							<GiHamburger size="2rem" color="#09f496" />
 						</p>
 					</button>
 				)}
 
 				{/* MOBILE MENU POPUP */}
 				{!isDesktop && isMenuToggled && (
-					<div className="fixed right-0 bottom-0 h-full bg-[#09f496] w-[300px] font-righteous">
+					<div className="fixed right-0 bottom-0 h-full bg-[#000000]/[0.85] w-full font-righteous text-[#09f496]">
 						{/* CLOSE ICON */}
-						<div className="flex justify-end p-12">
+						<div className="flex justify-end p-5">
 							<button
 								onClick={() => setIsMenuToggled(!isMenuToggled)}
 							>
-								<p className="text-3xl ease-in duration-500 font-righteous animate__animated animate__backInLeft">
-									<MdRestaurantMenu  size="2rem" color="white" />
+								<p className="text-2xl ease-in duration-500 font-righteous animate__animated animate__backInLeft bg-black rounded-full p-2">
+									<MdRestaurantMenu  size="2rem" color="[#09f496]" />
 								</p>
 							</button>
 						</div>
 
 						{/* MENU ITEMS */}
-						<div className="flex flex-col gap-10 ml-[20%] text-3xl animate__animated animate__backInLeft"
+						<div className="flex flex-col gap-5 ml-[20%] text-xl animate__animated animate__backInLeft"
                         onClick={() => setIsMenuToggled(!isMenuToggled)}>
 							<Link
 								page="Home"
@@ -117,7 +117,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 								setSelectedPage={setSelectedPage}
 							/>
 							<Link
-								page="Testimonials"
+								page="FoodGallery"
 								selectedPage={selectedPage}
 								setSelectedPage={setSelectedPage}
 							/>

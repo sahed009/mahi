@@ -6,7 +6,7 @@ import About from "./scenes/About";
 import Goals from "./scenes/Goals";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
-// import Testimonials from "./scenes/Testimonials";
+import FoodGallery from "./scenes/FoodGallery";
 
 function App() {
 	const [selectedPage, setSelectedPage] = useState("home");
@@ -44,9 +44,9 @@ function App() {
 				<div className="w-5/6 mx-auto">
 					<Goals />
 				</div>
-				{/* <Border /> */}
+				<Border />
 				<div className="w-5/6 mx-auto">
-					{/* <Testimonials /> */}
+					<FoodGallery />
 				</div>
 				<Border />
 				<div className="w-5/6 mx-auto">

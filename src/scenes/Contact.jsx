@@ -1,5 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const Contact = () => {
 	const {
@@ -22,18 +25,34 @@ const Contact = () => {
 			<div className="flex justify-start w-full">
 				<div>
 					<p className="font-righteous font-semibold text-4xl mt-10 text-[#09f496] animate-pulse">
-						<span className="text-[#84e8ad]">SEND ME</span> A MESSAGE
+						<span className="text-[#84e8ad]">SEND ME</span> A
+						MESSAGE
 					</p>
 					<div className="flex md:justify-end my-5" />
 				</div>
 			</div>
 
 			{/* FORM & IMAGE */}
-			<div className="md:flex md:justify-between gap-16 mt-5">
-                <div className="flex-start basis-1/3 hover:motion-safe:animate-spin border-2 border-[#09f496] rounded-full">
-                    <img src={require('../assets/logo.png')} alt="contact_Image" />
-                </div>
-				<div className="flex-end basis-2/3 mt-5 md:mt-0">
+			<div className="md:flex md:justify-between gap-16 my-5">
+				<div
+					data-aos="zoom-in-up"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-sine"
+                    data-aos-anchor-placement="center-bottom"
+					className="flex-start basis-1/3 hover:motion-safe:animate-spin border-2 border-[#09f496] rounded-full"
+				>
+					<img
+						src={require("../assets/logo.png")}
+						alt="contact_Image"
+					/>
+				</div>
+				<div
+					data-aos="zoom-in-down"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-sine"
+                    data-aos-anchor-placement="center-bottom"
+					className="flex-end basis-2/3 mt-5 md:mt-0"
+				>
 					<form
 						target="_blank"
 						onSubmit={onSubmit}

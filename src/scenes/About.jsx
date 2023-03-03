@@ -1,11 +1,14 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
-const About = ({ setSelectedPage }) => {
+const About = () => {
 	return (
 		<section id="about" className="about">
 			{/* HEADINGS */}
 			<div className="flex justify-start w-full">
-				<div> 
+				<div>
 					<p className=" font-righteous font-semibold text-4xl mt-10 text-[#09f496] animate-pulse">
 						<span className="text-[#84e8ad]">About</span> Me
 					</p>
@@ -15,11 +18,27 @@ const About = ({ setSelectedPage }) => {
 
 			{/*Main Divs */}
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-3">
-				<div className="bg-[#09f496]/[0.1] shadow-2xl">
-					<img src={require("../assets/food-1.jpg")} alt="food" className="p-3" />
+				<div
+					data-aos="fade-up"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-sine"
+                    data-aos-anchor-placement="center-bottom"
+					className="bg-[#09f496]/[0.2] shadow-2xl shadow-black/40"
+				>
+					<img
+						src={require("../assets/food-1.jpg")}
+						alt="food"
+						className="p-3"
+					/>
 				</div>
 
-				<div className="bg-[#09f496]/[0.9] rounded-md shadow-2xl shadow-black/40">
+				<div
+					data-aos="fade-down"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-sine"
+                    data-aos-anchor-placement="center-bottom"
+					className="bg-[#09f496]/[0.9] rounded-md shadow-2xl shadow-black/40"
+				>
 					<p className="p-5 font-righteous md:text-lg text-white">
 						I'm a 22-year-old trainee chef from Sylhet, Bangladesh
 						with a passion for creating flavorful and innovative
@@ -31,7 +50,13 @@ const About = ({ setSelectedPage }) => {
 						life.
 					</p>
 				</div>
-				<div className=" bg-[#09f496]/[0.9] rounded-md shadow-2xl shadow-black/40">
+				<div
+					data-aos="fade-up"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-sine"
+                    data-aos-anchor-placement="center-bottom"
+					className=" bg-[#09f496]/[0.9] rounded-md shadow-2xl shadow-black/40"
+				>
 					<p className="p-5 font-righteous md:text-lg text-white">
 						Cooking is my passion and way of life. I believe that
 						food brings people together and creates lasting
@@ -41,8 +66,18 @@ const About = ({ setSelectedPage }) => {
 						emotional significance.
 					</p>
 				</div>
-				<div className="bg-[#09f496]/[0.1] shadow-2xl">
-					<img src={require("../assets/food-2.jpg")} alt="food" className="p-3"/>
+				<div
+					data-aos="fade-down"
+					data-aos-duration="1000"
+					data-aos-easing="ease-in-sine"
+                    data-aos-anchor-placement="center-bottom"
+					className="bg-[#09f496]/[0.2] shadow-2xl shadow-black/40"
+				>
+					<img
+						src={require("../assets/food-2.jpg")}
+						alt="food"
+						className="p-3"
+					/>
 				</div>
 			</div>
 		</section>
