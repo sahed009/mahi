@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Navbar from "./scenes/Navbar";
 import Landing from "./scenes/Landing";
-import Border from "./components/border";
 import About from "./scenes/About";
 import Goals from "./scenes/Goals";
 import Contact from "./scenes/Contact";
@@ -26,33 +25,34 @@ function App() {
 
 	return (
 		<div className="app">
-			<div className=" bg-bg-img bg-cover bg-center bg-img:opacity-70">
+			<div className="bg-white/[0.2]">
+            <div>
 				<Navbar
 					isTopOfPage={isTopOfPage}
 					selectedPage={selectedPage}
 					setSelectedPage={setSelectedPage}
 				/>
-				<div className="w-5/6 mx-auto">
+				<div className="w-5/6 mx-auto py-10">
 					<Landing />
 				</div>
-				<Border />
 			</div>
-				<div className="w-5/6 mx-auto">
-					<About />
-				</div>
-				<Border />
-				<div className="w-5/6 mx-auto">
-					<Goals />
-				</div>
-				<Border />
-				<div className="w-5/6 mx-auto">
-					<FoodGallery />
-				</div>
-				<Border />
-				<div className="w-5/6 mx-auto">
-					<Contact />
-				</div>
-				<Footer />
+			<div className="w-5/6 mx-auto py-10">
+				<About />
+			</div>
+
+			<div className="w-5/6 mx-auto py-10">
+				<Goals />
+			</div>
+
+			<div className="w-5/6 mx-auto py-10">
+				<FoodGallery />
+			</div>
+
+			<div className="w-5/6 mx-auto flex justify-center items-center py-10">
+				<Contact />
+			</div>
+            </div>
+			<Footer className="border-2 border-[#09f496] py-10"/>
 		</div>
 	);
 }

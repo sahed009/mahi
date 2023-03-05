@@ -24,8 +24,8 @@ const Contact = () => {
 			{/* HEADINGS */}
 			<div className="flex justify-start w-full">
 				<div>
-					<p className="font-righteous font-semibold text-4xl mt-10 text-[#09f496] animate-pulse">
-						<span className="text-[#84e8ad]">SEND ME</span> A
+					<p className="font-righteous font-semibold text-4xl mt-10 text-[#ADA2FF] animate-pulse">
+						<span className="text-[#ADA2FF]">SEND ME</span> A
 						MESSAGE
 					</p>
 					<div className="flex md:justify-end my-5" />
@@ -34,18 +34,6 @@ const Contact = () => {
 
 			{/* FORM & IMAGE */}
 			<div className="md:flex md:justify-between gap-16 my-5">
-				<div
-					data-aos="zoom-in-up"
-					data-aos-duration="1000"
-					data-aos-easing="ease-in-sine"
-                    data-aos-anchor-placement="center-bottom"
-					className="flex-start basis-1/3 hover:motion-safe:animate-spin border-2 border-[#09f496] rounded-full"
-				>
-					<img
-						src={require("../assets/logo.png")}
-						alt="contact_Image"
-					/>
-				</div>
 				<div
 					data-aos="zoom-in-down"
 					data-aos-duration="1000"
@@ -60,7 +48,7 @@ const Contact = () => {
 						method="POST"
 					>
 						<input
-							className="w-full placeholder-[#09f496] font-semibold bg-black rounded-lg p-5 shadow-2xl shadow-black/40"
+							className="w-full placeholder-[#ADA2FF] font-semibold bg-white rounded-lg p-5 shadow-2xl shadow-[#ADA2FF]/40"
 							type="text"
 							placeholder="NAME"
 							{...register("name", {
@@ -69,7 +57,7 @@ const Contact = () => {
 							})}
 						/>
 						{errors.name && (
-							<p className="text-[#09f496] mt-1">
+							<p className="text-[#ADA2FF] mt-1">
 								{errors.name.type === "required" &&
 									"This field is required."}
 								{errors.name.type === "maxLength" &&
@@ -78,7 +66,7 @@ const Contact = () => {
 						)}
 
 						<input
-							className="w-full placeholder-[#09f496] font-semibold bg-black rounded-lg p-5 mt-5 shadow-2xl shadow-black/40"
+							className="w-full placeholder-[#ADA2FF] font-semibold bg-white rounded-lg p-5 mt-5 shadow-2xl shadow-[#ADA2FF]/40"
 							type="text"
 							placeholder="EMAIL"
 							{...register("email", {
@@ -88,7 +76,7 @@ const Contact = () => {
 							})}
 						/>
 						{errors.email && (
-							<p className="text-[#09f496] mt-1">
+							<p className="text-[#ADA2FF] mt-1">
 								{errors.email.type === "required" &&
 									"This field is required."}
 								{errors.email.type === "pattern" &&
@@ -97,7 +85,7 @@ const Contact = () => {
 						)}
 
 						<textarea
-							className="w-full placeholder-[#09f496] font-semibold bg-black rounded-lg p-5 mt-5 shadow-2xl shadow-black/40"
+							className="w-full placeholder-[#ADA2FF] font-semibold bg-white rounded-lg p-5 mt-5 shadow-2xl shadow-[#ADA2FF]/40"
 							name="message"
 							placeholder="MESSAGE"
 							rows="4"
@@ -108,7 +96,7 @@ const Contact = () => {
 							})}
 						/>
 						{errors.message && (
-							<p className="text-[#09f496] mt-1">
+							<p className="text-[#ADA2FF] mt-1">
 								{errors.message.type === "required" &&
 									"This field is required."}
 								{errors.message.type === "maxLength" &&
@@ -117,7 +105,7 @@ const Contact = () => {
 						)}
 
 						<button
-							className="p-5 bg-[#84e8ad] font-semibold mt-5 hover:bg-black hover:text-[#09f496] hover:rounded-lg hover:text-bold transition duration-500 shadow-2xl shadow-black/40"
+							className="p-5 bg-[#ADA2FF] text-white font-semibold mt-5 hover:bg-white hover:text-[#ADA2FF] hover:rounded-lg hover:text-bold transition duration-500 shadow-2xl shadow-[#ADA2FF]/40"
 							type="submit"
 						>
 							SEND ME A MESSAGE

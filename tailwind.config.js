@@ -18,11 +18,8 @@ module.exports = {
                 "bg-img": "url('./assets/bg.jpg')",
 			}),
 			fontFamily: {
-				righteous: ["Righteous", "serif"],
+				righteous: ["Raleway", "serif"],
 				opensans: ["Open Sans", "sans-serif"],
-			},
-			content: {
-				// bg-img: "url('./assets/bg.jpg')",
 			},
 		},
 		screens: {

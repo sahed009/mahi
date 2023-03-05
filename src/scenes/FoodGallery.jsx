@@ -6,8 +6,8 @@ const FoodGallery = () => {
 			{/* HEADINGS */}
 			<div className="flex-column justify-start w-full">
 				<div>
-					<p className="font-righteous font-semibold text-4xl mt-10 text-[#09f496] animate-pulse">
-						<span className="text-[#84e8ad]">Food</span> Gallery
+					<p className="font-righteous font-semibold text-4xl mt-10 text-[#ADA2FF] animate-pulse">
+						<span className="text-[#ADA2FF]">Food</span> Gallery
 					</p>
 					<div className="flex md:justify-end my-5" />
 				</div>

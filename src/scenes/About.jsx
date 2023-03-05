@@ -9,21 +9,21 @@ const About = () => {
 			{/* HEADINGS */}
 			<div className="flex justify-start w-full">
 				<div>
-					<p className=" font-righteous font-semibold text-4xl mt-10 text-[#09f496] animate-pulse">
-						<span className="text-[#84e8ad]">About</span> Me
+					<p className=" font-righteous font-semibold md:font-bold text-4xl mt-10 text-[#ADA2FF] animate-pulse">
+						<span className="text-[#ADA2FF]/[0.8]">About</span> Me
 					</p>
 					<div className="flex md:justify-end my-5" />
 				</div>
 			</div>
 
 			{/*Main Divs */}
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-3">
+			<div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 				<div
 					data-aos="fade-up"
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-sine"
                     data-aos-anchor-placement="center-bottom"
-					className="bg-[#09f496]/[0.2] shadow-2xl shadow-black/40"
+					className="bg-[#ADA2FF]/[0.2] shadow-2xl shadow-black/40  flex justify-center items-center"
 				>
 					<img
 						src={require("../assets/food-1.jpg")}
@@ -37,9 +37,9 @@ const About = () => {
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-sine"
                     data-aos-anchor-placement="center-bottom"
-					className="bg-[#09f496]/[0.9] rounded-md shadow-2xl shadow-black/40"
+					className="bg-[#ADA2FF]/[0.9] rounded-md shadow-2xl shadow-black/40  flex justify-center items-center"
 				>
-					<p className="p-5 font-righteous md:text-lg text-white">
+					<p className="font-righteous font-semibold md:text-lg lg:text-2xl text-white p-5 md:p-10">
 						I'm a 22-year-old trainee chef from Sylhet, Bangladesh
 						with a passion for creating flavorful and innovative
 						dishes. I'm always experimenting with new ingredients
@@ -55,9 +55,9 @@ const About = () => {
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-sine"
                     data-aos-anchor-placement="center-bottom"
-					className=" bg-[#09f496]/[0.9] rounded-md shadow-2xl shadow-black/40"
+					className=" bg-[#ADA2FF]/[0.9] rounded-md shadow-2xl shadow-black/40  flex justify-center items-center"
 				>
-					<p className="p-5 font-righteous md:text-lg text-white">
+					<p className="font-righteous font-semibold md:text-lg lg:text-2xl text-white p-5 md:p-10">
 						Cooking is my passion and way of life. I believe that
 						food brings people together and creates lasting
 						memories. European cuisine has always intrigued me with
@@ -71,7 +71,7 @@ const About = () => {
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-sine"
                     data-aos-anchor-placement="center-bottom"
-					className="bg-[#09f496]/[0.2] shadow-2xl shadow-black/40"
+					className="bg-[#ADA2FF]/[0.2] shadow-2xl shadow-black/40  flex justify-center items-center"
 				>
 					<img
 						src={require("../assets/food-2.jpg")}

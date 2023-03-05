@@ -4,7 +4,7 @@ const SocialMediaIcons = () => {
 	return (
 		<div className="flex justify-center md:justify-start my-5 gap-10">
 			<a
-				className="bg-[#09f496]/[0.8] p-3 md:p-6 rounded-full"
+				className="bg-[#ADA2FF]/[0.8] p-3 md:p-6 rounded-full"
 				href="https://www.facebook.com/Maaahhii009"
 				target="_blank"
 				rel="noreferrer"
@@ -12,7 +12,7 @@ const SocialMediaIcons = () => {
 				<SiFacebook size="1.5rem" color="white" />
 			</a>
             <a
-				className="bg-[#09f496]/[0.8] p-3 md:p-6 rounded-full"
+				className="bg-[#ADA2FF]/[0.8] p-3 md:p-6 rounded-full"
 				href="mailto:maaahii009@gmail.com"
 				target="_blank"
 				rel="noreferrer"
@@ -20,7 +20,7 @@ const SocialMediaIcons = () => {
 				<SiGmail size="1.5rem" color="white" />
 			</a>
             <a
-				className="bg-[#09f496]/[0.8] p-3 md:p-6 rounded-full"
+				className="bg-[#ADA2FF]/[0.8] p-3 md:p-6 rounded-full"
 				href="https://www.instagram.com/maaahhii009/"
 				target="_blank"
 				rel="noreferrer"
@@ -28,7 +28,7 @@ const SocialMediaIcons = () => {
 				<SiInstagram size="1.5rem" color="white" />
 			</a>
             <a
-				className="bg-[#09f496]/[0.8] p-3 md:p-6 rounded-full"
+				className="bg-[#ADA2FF]/[0.8] p-3 md:p-6 rounded-full"
 				href="tel:+8801746941295"
 				target="_blank"
 				rel="noreferrer"

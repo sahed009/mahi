@@ -12,8 +12,8 @@ const Goals = ({ setSelectedPage }) => {
 			{/* HEADINGS */}
 			<div className="flex justify-start w-full">
 				<div>
-					<p className="font-righteous font-semibold text-4xl mt-10 text-[#09f496] animate-pulse">
-						<span className="text-[#84e8ad]">My</span> Goals
+					<p className="font-righteous font-semibold text-4xl mt-10 text-[#ADA2FF] animate-pulse">
+						<span className="text-[#ADA2FF]/[0.8]">My</span> Goals
 					</p>
 					<div className="flex md:justify-end my-5" />
 				</div>
@@ -25,7 +25,7 @@ const Goals = ({ setSelectedPage }) => {
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-sine"
                     data-aos-anchor-placement="center-bottom"
-					className="bg-[#09f496] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#09f496]/[0.8] hover:text-black rounded-xl transition ease-in-out duration-500 shadow-2xl shadow-black/40"
+					className="bg-[#ADA2FF] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#ADA2FF]/[0.8] hover:text-black rounded-xl transition ease-in-out duration-500 shadow-2xl shadow-black/40"
 				>
 					<HiOutlineLightBulb color="white" size="32px" />
 					<h1 className="py-2 text-2xl w-[80%] ease-in-out duration-300">
@@ -45,7 +45,7 @@ const Goals = ({ setSelectedPage }) => {
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-sine"
                     data-aos-anchor-placement="center-bottom"
-					className="bg-[#09f496] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#09f496]/[0.8] hover:text-black rounded-xl transition ease-in-out duration-500 shadow-2xl shadow-black/40"
+					className="bg-[#ADA2FF] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#ADA2FF]/[0.8] hover:text-black rounded-xl transition ease-in-out duration-500 shadow-2xl shadow-black/40"
 				>
 					<GiChefToque color="white" size="32px" />
 					<h1 className="py-2 text-2xl w-[80%] ease-in-out duration-300">
@@ -64,7 +64,7 @@ const Goals = ({ setSelectedPage }) => {
 					data-aos="flip-right"
 					data-aos-duration="1000"
 					data-aos-easing="ease-in"
-					className="bg-[#09f496] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#09f496]/[0.8] hover:text-black rounded-xl transition ease-in-out duration-500 shadow-2xl shadow-black/40"
+					className="bg-[#ADA2FF] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#ADA2FF]/[0.8] hover:text-black rounded-xl transition ease-in-out duration-500 shadow-2xl shadow-black/40"
 				>
 					<GiEarthAsiaOceania color="white" size="32px" />
 					<h1 className="py-2 text-2xl w-[80%] ease-in-out duration-300">
@@ -83,7 +83,7 @@ const Goals = ({ setSelectedPage }) => {
 					data-aos="flip-left"
 					data-aos-duration="1000"
 					data-aos-easing="ease-in"
-					className="bg-[#09f496] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#09f496]/[0.8] hover:text-black rounded-xl transition ease-in-out duration-500 shadow-2xl shadow-black/40"
+					className="bg-[#ADA2FF] font-righteous text-white text-md md:text-lg w-[95%] p-8 m-3 hover:bg-[#ADA2FF]/[0.8] hover:text-black rounded-xl transition ease-in-out duration-500 shadow-2xl shadow-black/40"
 				>
 					<IoIosPeople color="white" size="32px" />
 					<h1 className="py-2 text-2xl w-[80%] ease-in-out duration-300">
