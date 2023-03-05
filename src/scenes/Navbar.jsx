@@ -37,12 +37,12 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
 					onClick={() => setSelectedPage("home")}
 					href="#home"
 				>
-					<h2 className="text-white text-lg md:text-2xl text-bold bg-[#ADA2FF] px-5 py-1.5 rounded-md shadow-2xl shadow-[#ADA2FF]">Mahi</h2>
+					<h2 className="text-white text-lg md:text-2xl text-bold bg-[#ADA2FF] px-5 py-1.5  rounded-md shadow-2xl shadow-[#ADA2FF]">Mahi</h2>
 				</AnchorLink>
 
 				{/* DESKTOP NAV */}
 				{isDesktop ? (
-					<div className="flex justify-between gap-7 text-lg font-opensans font-semibold text-[#ADA2FF] animate__animated animate__slideInUp">
+					<div className="flex justify-between gap-3 md:gap-7 md:text-lg font-opensans font-semibold text-[#ADA2FF] animate__animated animate__slideInUp">
 						<Link
 							page="Home"
 							selectedPage={selectedPage}

@@ -9,7 +9,7 @@ const SocialMediaIcons = () => {
 				target="_blank"
 				rel="noreferrer"
 			>
-				<SiFacebook size="1.5rem" color="white" />
+				<SiFacebook size="2rem" color="white" />
 			</a>
             <a
 				className="bg-[#ADA2FF]/[0.8] p-3 md:p-6 rounded-full"
@@ -17,7 +17,7 @@ const SocialMediaIcons = () => {
 				target="_blank"
 				rel="noreferrer"
 			>
-				<SiGmail size="1.5rem" color="white" />
+				<SiGmail size="2rem" color="white" />
 			</a>
             <a
 				className="bg-[#ADA2FF]/[0.8] p-3 md:p-6 rounded-full"
@@ -25,7 +25,7 @@ const SocialMediaIcons = () => {
 				target="_blank"
 				rel="noreferrer"
 			>
-				<SiInstagram size="1.5rem" color="white" />
+				<SiInstagram size="2rem" color="white" />
 			</a>
             <a
 				className="bg-[#ADA2FF]/[0.8] p-3 md:p-6 rounded-full"
@@ -33,7 +33,7 @@ const SocialMediaIcons = () => {
 				target="_blank"
 				rel="noreferrer"
 			>
-				<SlCallOut size="1.5rem" color="white" />
+				<SlCallOut size="2rem" color="white" />
 			</a>
 		</div>
 	);
